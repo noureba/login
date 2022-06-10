@@ -1,0 +1,35 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "login-register page using html and css, width responsive design",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noureba/login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noureba/login/issues"
+  },
+  "homepage": "https://github.com/noureba/login#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.4",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

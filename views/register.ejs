@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+        <img src="img/login-bg.png" alt="register">
+    </div>
+    <div class="login">
+        <h1>Create New Account</h1>
+        <form action="/register" method="post">
+            <input type="text" placeholder="First name" name="FirstName" required>
+            <input type="text" placeholder="Last name" name="LastName" required>
+            <input type="email" id =" email" placeholder="Email" name="Email" required>
+            <input type="password" id =" password" placeholder="Password" name="Password"  min="6" required>
+            <a href="">Forgot password</a>
+            <input type="submit" value="register" class="submit">
+        </form>
+        <p>You have an account? <a href="/login">Login</a></p>
+    </div>
+</body>
+</html>
